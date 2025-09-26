@@ -1,91 +1,95 @@
+# QuantumPortal
 
-# 🚀 QuantumPortal - Portal Automatizado com IA e WordPress
+🌐 Available in: [English](README.md) | [Português BR](README.pt-br.md)
 
-Este projeto demonstra a criação de **QuantumPortal**, um portal de matérias totalmente automatizado, utilizando **IA, WordPress, integrações e automações**.  
+
+# 🚀 QuantumPortal - Automated Portal with AI and WordPress
+
+This project demonstrates the creation of **QuantumPortal**, a fully automated article portal using **AI, WordPress, integrations, and automations**.  
 
 ---
 
-## 🌐 Demonstração Online
+## 🌐 Live Demo
 
-Um portal desenvolvido utilizando este fluxo do **QuantumPortal** está ativo e disponível como exemplo prático:  
+A portal developed using this **QuantumPortal** flow is live and available as a practical example:  
 👉 [satuni.com.br](https://satuni.com.br)
 
-> 🔎 Observação: Satuni é um **caso de uso real** do fluxo de automação descrito.  
-> Ele integra-se ao Google Ads para exibição de anúncios e pode ser adaptado para qualquer tema ou nicho de interesse.
+> 🔎 Note: Satuni is a **real use case** of the described automation flow.  
+> It integrates with Google Ads for displaying ads and can be adapted to any theme or niche.
 
 ---
 
-## ⚙️ Como Funciona
+## ⚙️ How It Works
 
-### 1. Entrada de Dados  
-- Cada **subdomínio** possui uma planilha no **Google Drive**, listando os temas a serem abordados.  
-- Os agentes de IA processam essa lista diariamente.  
+### 1. Data Input  
+- Each **subdomain** has a **Google Drive** spreadsheet listing the topics to be covered.  
+- AI agents process this list daily.  
 
-### 2. Geração de Conteúdo  
-- **Google Gemini via Make**: gera as matérias, faz SEO (títulos, descrições, tags, categorias).  
-- **Runware**: gera imagens para ilustrar cada publicação.  
+### 2. Content Generation  
+- **Google Gemini via Make**: generates articles, performs SEO (titles, descriptions, tags, categories).  
+- **Runware**: generates images to illustrate each publication.  
 
-### 3. Publicação Automática  
-- Cada **subdomínio** é uma instalação **WordPress independente**.  
-- Os conteúdos são publicados automaticamente com todo o SEO otimizado.  
+### 3. Automatic Publishing  
+- Each **subdomain** is an independent **WordPress** installation.  
+- Content is published automatically with SEO fully optimized.  
 
-### 4. Portal Agregador  
-- O **domínio principal** não tem conteúdo próprio.  
-- Ele funciona como **agregador das matérias** dos subdomínios.  
-- Plugin WordPress customizado conecta os subdomínios, exibe os assuntos e as últimas matérias publicadas.  
+### 4. Aggregator Portal  
+- The **main domain** has no original content.  
+- It acts as an **aggregator of articles** from the subdomains.  
+- A custom WordPress plugin connects the subdomains, displaying the topics and the latest published articles.  
 
-### 5. Monetização  
-- O portal está integrado ao **Google Ads**, exibindo anúncios para geração de receita.  
+### 5. Monetization  
+- The portal is integrated with **Google Ads**, displaying ads to generate revenue.  
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+## 🏗️ Project Architecture
 
-A estrutura é composta por:
+The structure consists of:
 
-- **Domínio principal**: funciona como um **agregador**.  
-- **Subdomínios**: cada um representa um **assunto específico**, gerando matérias automaticamente via IA.  
+- **Main domain**: acts as an **aggregator**.  
+- **Subdomains**: each one represents a **specific topic**, automatically generating articles via AI.  
 
-### 📐 Wireframe da Arquitetura
+### 📐 Architecture Wireframe
 
 ```
-[Google Drive Planilhas] ---> [Make + Gemini + Runware]
+[Google Drive Sheets] ---> [Make + Gemini + Runware]
          |                             |
          v                             v
-   [Subdomínio A - WP]   [Subdomínio B - WP] ... [Subdomínio N - WP]
+   [Subdomain A - WP]   [Subdomain B - WP] ... [Subdomain N - WP]
          \                  |                      /
           \-----------------|---------------------/
                            v
-                  [Domínio Principal - WP Agregador]
+                  [Main Domain - WP Aggregator]
                            |
                            v
-                     [Exibição + Google Ads]
+                     [Display + Google Ads]
 ```
 
 ---
 
-## 🔌 Tecnologias Utilizadas
+## 🔌 Technologies Used
 
-- **WordPress** → CMS para os portais (principal e subdomínios). (https://wordpress.org/)
-- **Plugins WordPress customizados** → integração com IA via Make e agregação de subdomínios.  
-- **Google Drive** → planilhas como base de dados de temas. (https://drive.google.com/)
-- **Google Gemini (IA)** → geração de conteúdo otimizado. (https://aistudio.google.com/)
-- **Runware** → geração automática de imagens. (https://runware.ai/)
-- **Make (Integromat)** → automações e orquestração dos fluxos. (https://www.make.com/)
-- **Google Ads** → monetização via exibição de anúncios. (https://adsense.google.com/)
-
----
-
-## 👤 Sobre o Autor
-
-Desenvolvido por [Rodrigo Lemos](https://linkedin.com/in/irlemos)  
-
-💻 **Experiência ampla em desenvolvimento de software, integrações e soluções complexas**  
-Com vasta experiência em múltiplas linguagens, plataformas e projetos escaláveis.
+- **WordPress** → CMS for the portals (main and subdomains). (https://wordpress.org/)  
+- **Custom WordPress Plugins** → integration with AI via Make and aggregation of subdomains.  
+- **Google Drive** → spreadsheets as the base of topic data. (https://drive.google.com/)  
+- **Google Gemini (AI)** → optimized content generation. (https://aistudio.google.com/)  
+- **Runware** → automatic image generation. (https://runware.ai/)  
+- **Make (Integromat)** → automations and flow orchestration. (https://www.make.com/)  
+- **Google Ads** → monetization via ad display. (https://adsense.google.com/)  
 
 ---
 
-## 📜 Licença
+## 👤 About the Author
 
-Este projeto é demonstrativo e faz parte do meu portfólio profissional.  
-O uso comercial desta arquitetura requer autorização prévia.
+Developed by [Rodrigo Lemos](https://linkedin.com/in/irlemos)  
+
+💻 **Extensive experience in software development, integrations, and complex solutions**  
+With vast expertise in multiple programming languages, platforms, and scalable projects.
+
+---
+
+## 📜 License
+
+This project is demonstrative and part of my professional portfolio.  
+Commercial use of this architecture requires prior authorization.
