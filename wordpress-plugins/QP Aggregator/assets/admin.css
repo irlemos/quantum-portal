@@ -1,0 +1,16 @@
+.subdomain-row, .template-row {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.subdomain-row input, .template-row input {
+    margin-right: 10px;
+    width: 200px;
+}
+.template-row textarea {
+    width: 600px;
+    vertical-align: top;
+}
+.remove-row {
+    margin-left: 10px;
+}
