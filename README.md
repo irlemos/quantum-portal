@@ -1,5 +1,3 @@
-# QuantumPortal
-
 🌐 Available in: [English](README.md) | [Português BR](README.pt-br.md)
 
 
