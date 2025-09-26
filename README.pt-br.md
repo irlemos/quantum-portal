@@ -1,6 +1,6 @@
 # QuantumPortal
 
-🌐 Disponível em: [English](README.en.md) | [Português BR](README.pt-br.md)
+🌐 Disponível em: [English](README.md) | [Português BR](README.pt-br.md)
 
 
 # 🚀 QuantumPortal - Portal Automatizado com IA e WordPress
